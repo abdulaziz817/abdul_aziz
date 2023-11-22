@@ -1,13 +1,86 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@layer base {
+  html {
+    font-family: "Quicksand", sans-serif;
+    scroll-behavior: var(--scroll-effect);
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: var(--transisi-smooth);
 }
+
+:root {
+  --width: 100%;
+  --height: 100%;
+  --scroll-effect: smooth;
+  --transisi-smooth: all 300ms ease-in-out;
+  --primary-1: #272834;
+  --primary-2: #1d1d1d;
+  --primary-3: #121212;
+}
+
+html {
+  height: var(--height);
+  width: var(--width);
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  height: var(--height);
+  width: var(--width);
+}
+
+.link-underline {
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent),
+    linear-gradient(#fff, #fff);
+  background-size: 0 3px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  border-radius: 1px;
+  transition: background-size 0.5s ease-in-out;
+}
+
+.link-underline:hover {
+  background-size: 100% 3px;
+  background-position: 0 100%;
+}
+
+@keyframes Transisi {
+  from {
+    opacity: 100px;
+    transform: matrix3d(-12deg);
+  }
+  to {
+    opacity: 100px;
+    transform: matrix3d(0);
+  }
+}
+
+.dsrt {
+  animation: Transisi 2s;
+  position:  static;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-custom {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
