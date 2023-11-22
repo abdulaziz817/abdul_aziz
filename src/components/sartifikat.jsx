@@ -22,7 +22,7 @@ let Serti = (props) => {
           <div class="flex items-center">
             <div class="flex-shrink-0">
               <img
-                class="h-[2.875rem] w-[2.875rem] border-2 border-white rounded-full"
+                class="h-[2.875rem] object-cover w-[2.875rem] border-2 border-white rounded-full"
                 src={user}
                 alt=""
               />
