@@ -8,7 +8,7 @@ function ContactForm() {
   return (
     <form onSubmit={handleSubmit} className="md:w-1/3 space-y-2">
       <label className="inline text-sm font-medium mb-2 " htmlFor="email">
-        Email Address
+        Comment
       </label>
       <input
         id="email"
@@ -22,7 +22,7 @@ function ContactForm() {
         id="message"
         name="message"
         className="py-3 px-4 block w-full border-gray-200 border dark:bg-transparent outline-none rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500"
-        placeholder="Komen apa aja boleh..."
+        placeholder="Your comment about this web ..."
       />
       <ValidationError prefix="Message" field="message" errors={state.errors} />
       <button
@@ -30,7 +30,7 @@ function ContactForm() {
         disabled={state.submitting}
         class="py-3 px-4  inline-flex border border-gray-200 dark:bg-transparent dark:text-white outline-none items-center gap-x-2 text-sm font-medium rounded-lg  bg-white text-gray-800  hover:bg-gray-50"
       >
-        Kirim
+        Send
         <svg
           class="flex-shrink-0 w-4 h-4"
           xmlns="http://www.w3.org/2000/svg"

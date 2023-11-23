@@ -33,10 +33,22 @@ const Footer = () => {
             </p>
           </span>
           <Iconspan>
-            <IconLink link="" svg={<FontAwesomeIcon icon={faTwitter} />} />
-            <IconLink link="" svg={<FontAwesomeIcon icon={faInstagram} />} />
-            <IconLink link="" svg={<FontAwesomeIcon icon={faGoogle} />} />
-            <IconLink link="" svg={<FontAwesomeIcon icon={faFacebook} />} />
+            <IconLink
+              link="https://twitter.com/Kingostyl"
+              svg={<FontAwesomeIcon icon={faTwitter} />}
+            />
+            <IconLink
+              link="https://www.instagram.com/arqzin/"
+              svg={<FontAwesomeIcon icon={faInstagram} />}
+            />
+            <IconLink
+              link="mailto:ariiqmaazin@gmail.com"
+              svg={<FontAwesomeIcon icon={faGoogle} />}
+            />
+            <IconLink
+              link="https://www.facebook.com/profile.php?id=100091630306434"
+              svg={<FontAwesomeIcon icon={faFacebook} />}
+            />
           </Iconspan>
         </div>
         <ContactForm />

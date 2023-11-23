@@ -4,7 +4,7 @@ const IgButton = styled.button`
   position: relative;
   font-size: 16px;
   cursor: pointer;
-  background-color: transparent; 
+  background-color: transparent;
   overflow: hidden;
 
   &:hover::after {
@@ -23,14 +23,14 @@ const ButtonLink = (props) => {
   const { link, font, after } = props;
 
   return (
-    <IgButton
-      className="w-[45px] h-[45px] dark:after:text-white after:text-black hover:pr-20 border rounded-full dark:border-gray-100 border-gray-900 hover:w-40 overflow-hidden"
-      after={after}
-    >
-      <a href={link} className="">
+    <a href={link}>
+      <IgButton
+        className="w-[45px] h-[45px] dark:after:text-white after:text-black hover:pr-20 border rounded-full dark:border-gray-100 border-gray-900 hover:w-40 overflow-hidden"
+        after={after}
+      >
         {font}
-      </a>
-    </IgButton>
+      </IgButton>
+    </a>
   );
 };
 

@@ -1,6 +1,5 @@
-import sertifikat from "../images/sertifikat.png"
-import user from "../images/userjinx.jpeg"
-
+import sertifikat from "../images/sertifikat.png";
+import user from "../images/userjinx.jpeg";
 
 let Serti = (props) => {
   const { link, from_sertifikat, desc_serti } = props;
@@ -40,9 +39,7 @@ let Serti = (props) => {
           <h3 class="text-lg sm:text-3xl font-semibold text-white group-hover:text-white/[.8]">
             {from_sertifikat}
           </h3>
-          <p class="mt-2 text-white/[.8]">
-           {desc_serti}
-          </p>
+          <p class="mt-2 text-white/[.8]">{desc_serti}</p>
         </div>
       </div>
     </a>

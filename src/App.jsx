@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import hello from "./images/hello.png";
 import Headers from "./components/header";
 import styled from "@emotion/styled";
@@ -56,11 +56,10 @@ const ContentContainer = styled.div`
 `;
 
 function App() {
-  
   return (
     <>
       <Headers />
-      <main className="py-32 ">
+      <main className="py-32">
         <SectionContainer className="mb-10">
           <Gift />
           <ContentContainer>
@@ -76,17 +75,17 @@ function App() {
             </p>
             <section className="space-x-4">
               <ButtonLink
-                link=""
+                link="belumpunya"
                 after="Ariiq"
                 font={<FontAwesomeIcon icon={faLinkedin} />}
               />
               <ButtonLink
-                link=""
+                link="https://github.com/Kingostyl"
                 after="Kingostyl"
                 font={<FontAwesomeIcon icon={faGithub} />}
               />
               <ButtonLink
-                link="944811870911623238"
+                link="vueziend.vs"
                 after="#VUE"
                 font={<FontAwesomeIcon icon={faDiscord} />}
               />
@@ -95,7 +94,7 @@ function App() {
         </SectionContainer>
         <Tab />
       </main>
-      <Footer/>
+      <Footer />
     </>
   );
 }

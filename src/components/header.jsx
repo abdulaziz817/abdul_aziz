@@ -65,9 +65,9 @@ const Headers = () => {
 
           <DivMd>
             <ul class="nav-custom md:grid hidden justify-items-center gap-x-5">
-              <List link="" names={"Skills"} />
-              <List link="" names={"Projects"} />
-              <List link="" names={"Contacts"} />
+              <List link="#horizontal-alignment-1" names={"Skills"} />
+              <List link="#horizontal-alignment-2" names={"Projects"} />
+              <List link="#horizontal-alignment-3" names={"Contacts"} />
             </ul>
             <DivToggle disclosure={disclosure}>
               <Swith />

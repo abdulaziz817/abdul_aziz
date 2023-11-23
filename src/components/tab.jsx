@@ -4,6 +4,7 @@ import Lopercourse from "../images/lopercourse.png";
 import Leafmails from "../images/leafmails.png";
 import Rect from "../images/react.png";
 import Serti from "./sartifikat";
+import Lauchpad from "../images/launchpad.png";
 
 import("preline");
 
@@ -140,17 +141,23 @@ const Tab = () => {
               des="Website untuk latihan CSS dan JS"
               link="https://leafmails.site/"
             />
+            <Projects
+              images={Lauchpad}
+              names="Launchpad APP"
+              des="Remact appple launchpad"
+              link="https://lauchpad-ten.vercel.app/"
+            />
           </span>
         </div>
         <div
           id="horizontal-alignment-3"
-          className="hidden "
+          className="hidden"
           role="tabpanel"
           aria-labelledby="horizontal-alignment-item-3"
         >
           <div class="grid lg:grid-cols-2 gap-6 p-10">
             <Serti
-              link=""
+              link="https://www.dicoding.com/certificates/JLX1WDML6P72"
               desc_serti="Belajar Dasar Pemograman Web"
               from_sertifikat="Dicoding Academy"
             />
