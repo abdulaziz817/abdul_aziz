@@ -7,6 +7,7 @@ import {
   faGoogle,
   faInstagram,
   faTwitter,
+  faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ContactForm from "./contacs.fromspree";
@@ -19,7 +20,7 @@ const Iconspan = styled.span`
 
 const Footer = () => {
   return (
-    <footer className="py-32 border-t flex justify-center flex-col dark:border-gray-100 border-slate-950">
+    <footer className="py-32 border-t mt-5 md:mt-0 flex justify-center flex-col dark:border-gray-100 border-slate-950">
       <div className=" md:justify-between md:flex px-10">
         <div className="md:w-1/3">
           <span>
@@ -32,7 +33,7 @@ const Footer = () => {
               full of life. <p className="font-extrabold">#OpenAI</p>
             </p>
           </span>
-          <Iconspan>
+          <Iconspan id="iconcontact">
             <IconLink
               link="https://twitter.com/Kingostyl"
               svg={<FontAwesomeIcon icon={faTwitter} />}
@@ -48,6 +49,10 @@ const Footer = () => {
             <IconLink
               link="https://www.facebook.com/profile.php?id=100091630306434"
               svg={<FontAwesomeIcon icon={faFacebook} />}
+            />
+             <IconLink
+              link="https://api.whatsapp.com/send/?phone=6281311295106&text&type=phone_number&app_absent=0"
+              svg={<FontAwesomeIcon icon={faWhatsapp} />}
             />
           </Iconspan>
         </div>

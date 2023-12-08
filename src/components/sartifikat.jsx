@@ -12,6 +12,7 @@ let Serti = (props) => {
         <img
           class="w-full h-full absolute top-0 start-0 object-cover"
           src={sertifikat}
+          draggable={"false"}
           alt=""
         />
       </div>
@@ -24,6 +25,7 @@ let Serti = (props) => {
                 class="h-[2.875rem] object-cover w-[2.875rem] border-2 border-white rounded-full"
                 src={user}
                 alt=""
+                draggable={"false"}
               />
             </div>
             <div class="ms-2.5 sm:ms-4">

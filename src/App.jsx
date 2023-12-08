@@ -1,7 +1,7 @@
 "use client";
-import hello from "./images/hello.png";
 import Headers from "./components/header";
 import styled from "@emotion/styled";
+import Hello from "./images/hello.png";
 import ButtonLink from "./components/buttonlink";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -14,16 +14,16 @@ import Footer from "./components/footer";
 
 const Gift = styled.figure`
   padding: 32px;
-  height: 500px;
+  height: 600px;
   width: 600px;
-  background-image: url(${hello});
+  background-image: url('${Hello}');
   background-size: cover;
-  background-size: 550px 350px;
+  background-size: 430px 450px;
   background-position: center;
   background-repeat: no-repeat;
   @media (max-width: 678px) {
-    background-size: 300px 220px;
-    height: 220px;
+    background-size: 300px 310px;
+    height: 310px;
     width: 300px;
   }
 `;
@@ -45,6 +45,7 @@ const ContentContainer = styled.div`
   flex-direction: column;
   gap: 18px;
   width: 50%;
+  margin-top:5%;
   @media (min-width: 1800px) {
     width: auto;
   }
@@ -59,8 +60,8 @@ function App() {
   return (
     <>
       <Headers />
-      <main className="py-32">
-        <SectionContainer className="mb-10">
+      <main>
+        <SectionContainer>
           <Gift />
           <ContentContainer>
             <h1 className="text-5xl font-semibold">Hello, World!</h1>
@@ -81,18 +82,18 @@ function App() {
               />
               <ButtonLink
                 link="https://github.com/Kingostyl"
-                after="Kingostyl"
+                after="Vuezien"
                 font={<FontAwesomeIcon icon={faGithub} />}
               />
               <ButtonLink
                 link="vueziend.vs"
-                after="#VUE"
+                after="#ZIEN"
                 font={<FontAwesomeIcon icon={faDiscord} />}
               />
             </section>
           </ContentContainer>
         </SectionContainer>
-        <Tab />
+        <Tab/>
       </main>
       <Footer />
     </>

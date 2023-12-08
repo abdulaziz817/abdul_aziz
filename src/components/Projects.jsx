@@ -11,6 +11,7 @@ const Projects = (props) => {
             class="w-full h-full absolute top-0 start-0 object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl"
             src={images}
             alt=""
+            draggable={"false"}
           />
         </div>
 

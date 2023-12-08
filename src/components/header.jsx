@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable no-unused-vars */
 "use client";
 import React, { useState } from "react";
@@ -66,8 +68,8 @@ const Headers = () => {
           <DivMd>
             <ul class="nav-custom md:grid hidden justify-items-center gap-x-5">
               <List link="#horizontal-alignment-1" names={"Skills"} />
-              <List link="#horizontal-alignment-2" names={"Projects"} />
-              <List link="#horizontal-alignment-3" names={"Contacts"} />
+              <List link="#" names={"Projects"} />
+              <List link="#iconcontact" names={"Contacts"} />
             </ul>
             <DivToggle disclosure={disclosure}>
               <Swith />
