@@ -61,14 +61,14 @@ const Headers = () => {
         >
           <div>
             <span className="font-bold text-xl md:text-2xl">
-              Ariiq.Maazin.com
+              Abdul Aziz
             </span>
           </div>
 
           <DivMd>
             <ul class="nav-custom md:grid hidden justify-items-center gap-x-5">
               <List link="#horizontal-alignment-1" names={"Skills"} />
-              <List link="#" names={"Projects"} />
+              {/* <List link="#" names={"Projects"} /> */}
               <List link="#iconcontact" names={"Contacts"} />
             </ul>
             <DivToggle disclosure={disclosure}>
@@ -115,7 +115,7 @@ const Headers = () => {
 
               <ul className="flex flex-col py-2 md:hidden fixed left-2 top-16 gap-y-3 px-2">
                 <List link="" names={"Skills"} />
-                <List link="" names={"Projects"} />
+                {/* <List link="" names={"Projects"} /> */}
                 <List link="" names={"Contacts"} />
               </ul>
             </DivToggle>

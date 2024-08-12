@@ -29,8 +29,8 @@ let Serti = (props) => {
               />
             </div>
             <div class="ms-2.5 sm:ms-4">
-              <h4 class="font-semibold text-white">Ariiq</h4>
-              <p class="text-xs text-white/[.8]">Sep 16, 2023</p>
+              <h4 class="font-semibold text-black">Aziz</h4>
+              <p class="text-xs text-black/[.8]">September 2023</p>
             </div>
           </div>
         </div>

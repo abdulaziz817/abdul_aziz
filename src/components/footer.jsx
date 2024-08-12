@@ -24,34 +24,36 @@ const Footer = () => {
       <div className=" md:justify-between md:flex px-10">
         <div className="md:w-1/3">
           <span>
-            <h1 className="font-bold text-xl md:text-2xl">Ariiq.Maazin.com</h1>
+            <h1 className="font-bold text-xl md:text-2xl">Abdul Aziz</h1>
             <p className="font-regular text-sm mt-3 ">
-              Coding for me is not just a job, but more like an unexpected
-              journey in the world of pixels and bits. With a cup of coffee in
-              one hand and a keyboard in the other, I try to weave fun into each
-              project, creating something that is not only functional, but also
-              full of life. <p className="font-extrabold">#OpenAI</p>
+            Designing for me is not just a job, but an unexpected adventure in the world of pixels and bits.
+             With a cup of coffee in one hand and a tablet in the other, 
+             I'm always ready to dive into the sea of creativity.
+              Each project is a new canvas waiting for a magical touch, 
+              where wild and innovative ideas can come to life. Every detail, 
+              from colors to typography, is carefully chosen to ensure the final result is not 
+              only aesthetic but also intuitive and functional. <p className="font-extrabold">   #GraphicDesign #UXDesign #DesignLife #Inspiration</p>
             </p>
           </span>
           <Iconspan id="iconcontact">
             <IconLink
-              link="https://twitter.com/Kingostyl"
+              link="https://x.com/zizzzdul_"
               svg={<FontAwesomeIcon icon={faTwitter} />}
             />
             <IconLink
-              link="https://www.instagram.com/arqzin/"
+              link="https://www.instagram.com/zizzz.dul_/"
               svg={<FontAwesomeIcon icon={faInstagram} />}
             />
             <IconLink
-              link="mailto:ariiqmaazin@gmail.com"
+              link="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCHrlFXwCdTHBRhHJhFTHlLZbpPpnRCLQgPdsJgJWDmpFthFkSnTsgLqwJdPmGnhxRjDBNpL"
               svg={<FontAwesomeIcon icon={faGoogle} />}
             />
             <IconLink
-              link="https://www.facebook.com/profile.php?id=100091630306434"
+              link="https://web.facebook.com/profile.php?id=100051580637450"
               svg={<FontAwesomeIcon icon={faFacebook} />}
             />
              <IconLink
-              link="https://api.whatsapp.com/send/?phone=6281311295106&text&type=phone_number&app_absent=0"
+              link="https://api.whatsapp.com/send/?phone=6287782535212&text&type=phone_number&app_absent=0"
               svg={<FontAwesomeIcon icon={faWhatsapp} />}
             />
           </Iconspan>

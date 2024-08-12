@@ -11,7 +11,7 @@ import("preline");
 const Tab = () => {
   return (
     <section>
-      <div className=" w-auto">
+      <div className="w-auto">
         <nav
           className="-mb-0.5 flex justify-center space-x-6"
           aria-label="Tabs"
@@ -29,139 +29,139 @@ const Tab = () => {
           </button>
           <button
             type="button"
-            className="hs-tab-active:font-semibold hs-tab-active:border-slate-900 hs-tab-active:text-slate-900 py-4 px-1 inline-flex items-center gap-x-2 border-b-2 border-transparent text-sm whitespace-nowrap text-gray-500 hover:text-slate-900  focus:text-slate-900 disabled:opacity-50 disabled:pointer-events-none dark:hs-tab-active:border-white/70 dark:hs-tab-active:text-white/70 dark:text-gray-400 dark:hover:text-white"
-            id="horizontal-alignment-item-2"
-            data-hs-tab="#horizontal-alignment-2"
-            aria-controls="horizontal-alignment-2"
-            role="tab"
-          >
-            Projects
-          </button>
-          <button
-            type="button"
             className="hs-tab-active:font-semibold hs-tab-active:border-slate-900 hs-tab-active:text-slate-900 py-4 px-1 inline-flex items-center gap-x-2 border-b-2 border-transparent text-sm whitespace-nowrap text-gray-500 hover:text-slate-900 focus:text-slate-900 disabled:opacity-50 disabled:pointer-events-none dark:hs-tab-active:border-white/70 dark:hs-tab-active:text-white/70 dark:text-gray-400 dark:hover:text-white"
             id="horizontal-alignment-item-3"
             data-hs-tab="#horizontal-alignment-3"
             aria-controls="horizontal-alignment-3"
             role="tab"
           >
-            certificate
+            Certificate
           </button>
         </nav>
       </div>
-      <div className="mt-3 ">
+      <div className="mt-3">
         <div
           id="horizontal-alignment-1"
           role="tabpanel"
           aria-labelledby="horizontal-alignment-item-1"
-          className="grid grid-cols-12  gap-4 w-full xl:gap-4 md:p-10"
+          className="grid grid-cols-12 gap-4 w-full xl:gap-4 md:p-10"
         >
           <div className="col-span-12 md:col-span-6 md:order-2 lg:col-span-4 grid gap-4 xl:gap-6">
             <Skill
               images={Rect}
               title="ReactJS"
               desc="Library JavaScript"
-              arial_progress="60%"
-              progress="60"
-              style_porgress="60%"
+              arial_progress="30%"
+              progress="30"
+              style_porgress="30%"
             />
-
             <Skill
               images={
-                "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+                "https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg"
               }
-              title="Tailwind Css"
-              desc="Framework CSS"
-              arial_progress="90%"
-              progress="90"
-              style_porgress="90%"
+              title="Adobe"
+              desc="Adobe Photoshop"
+              arial_progress="75%"
+              progress="75"
+              style_porgress="75%"
+            />
+            <Skill
+              images={
+                "https://upload.wikimedia.org/wikipedia/commons/f/fb/Adobe_Illustrator_CC_icon.svg"
+              }
+              title="Adobe Illustrator"
+              desc="Illustration Design"
+              arial_progress="80%"
+              progress="80"
+              style_porgress="80%"
             />
           </div>
           <div className="col-span-12 md:col-span-6 md:order-2 lg:col-span-4 grid gap-4 xl:gap-6">
             <Skill
               images={
-                "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
+                "https://upload.wikimedia.org/wikipedia/commons/f/f1/CorelDraw_Logo.png"
               }
-              title="JavaScript"
-              desc="Web Language"
+              title="CorelDraw"
+              desc=" Advertising Design"
+              arial_progress="87%"
+              progress="87"
+              style_porgress="87%"
+            />
+            <Skill
+              images={
+                "https://i.pinimg.com/736x/18/f1/72/18f1727873924ba58fde1f739d11b77b.jpg"
+              }
+              title="Figma"
+              desc="UI/UX"
+              arial_progress="75%"
+              progress="75"
+              style_porgress="75%"
+            />
+            <Skill
+              images={
+                "https://static-00.iconduck.com/assets.00/flutter-icon-2048x2048-ufx4idi8.png"
+              }
+              title="Flutter"
+              desc="Mobile Development"
               arial_progress="50%"
               progress="50"
               style_porgress="50%"
-            />
-
-            <Skill
-              images={"https://i.ibb.co/JcstByf/dart.png"}
-              title="Dart"
-              desc="MultiFlatfom Language"
-              arial_progress="30%"
-              progress="30"
-              style_porgress="30%"
             />
           </div>
           <div className="col-span-12 lg:col-span-4 md:order-3 grid md:grid-cols-2 lg:grid-cols-1 gap-4 xl:gap-6">
             <Skill
               images={
-                "https://developer.apple.com/assets/elements/icons/swift/swift-96x96_2x.png"
+                "https://play-lh.googleusercontent.com/RKt7FfLHYfXyEJkY2imqAe1BP96wjAHtm7tH_rZZmBBX2QkC_2luYj6jXlPqoRhX5HmB"
               }
-              title="Swift"
-              desc="Apple Language"
-              arial_progress="20%"
-              progress="20"
-              style_porgress="20%"
+              title="Adobe Express "
+              desc="Typography"
+              arial_progress="79%"
+              progress="79"
+              style_porgress="79%"
             />
-
             <Skill
               images={
-                "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg"
+                "https://cdn.worldvectorlogo.com/logos/canva-1.svg"
               }
-              title="TypeScript"
-              desc="Compiler JS"
-              arial_progress="40%"
-              progress="40"
-              style_porgress="40%"
+              title="Canva"
+              desc="Poster Design"
+              arial_progress="85%"
+              progress="85"
+              style_porgress="85%"
+            />
+            <Skill
+              images={
+                "https://play-lh.googleusercontent.com/RGvuFCqPOIiR1i9QDN6-HNt5nOuWj4zuqQduxnJn0ughdo-yhAJNG1r6W1A3Fc6Z9w=w240-h480-rw"
+              }
+              title="Lightroom"
+              desc="Design Platform"
+              arial_progress="82%"
+              progress="82"
+              style_porgress="82%"
             />
           </div>
         </div>
-        <div
-          id="horizontal-alignment-2"
-          className="hidden"
-          role="tabpanel"
-          aria-labelledby="horizontal-alignment-item-2"
-        >
-          <span className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 p-10">
-            <Projects
-              images={Lopercourse}
-              names="Lopercourse"
-              des="Website team AIR yang membuat untuk training ujian"
-              link="https://lopercourse.com/"
-            />
-            <Projects
-              images={Leafmails}
-              names="LeafMails"
-              des="Website untuk latihan CSS dan JS"
-              link="https://leafmails.site/"
-            />
-            <Projects
-              images={Lauchpad}
-              names="Launchpad APP"
-              des="Remact appple launchpad"
-              link="https://lauchpad-ten.vercel.app/"
-            />
-          </span>
-        </div>
+
         <div
           id="horizontal-alignment-3"
           className="hidden"
           role="tabpanel"
           aria-labelledby="horizontal-alignment-item-3"
         >
-          <div class="grid lg:grid-cols-2 gap-6 p-10">
+          <div className="grid lg:grid-cols-2 gap-6 p-10">
             <Serti
-              link="https://www.dicoding.com/certificates/JLX1WDML6P72"
-              desc_serti="Belajar Dasar Pemograman Web"
-              from_sertifikat="Dicoding Academy"
+              link="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.mygreatlearning.com%2Fcertificate%2FERIHYZLQ&hashtag=%23GreatLearning"
+              desc_serti=""
+              from_sertifikat="Great Learning"
             />
           </div>
+          {/* <div className="grid lg:grid-cols-2 gap-6 p-10">
+            <Serti
+              link="https://www.dicoding.com/certificates/81P27761QZOY?fbclid=IwY2xjawEhLGhleHRuA2FlbQIxMQABHTBl8KelqofN7YB_1nt8WmamKRX_xv7B7dK6wLhgmOyHz-KDb0IIr6JQxg_aem_diIDSRdiy1HeCUSWvHJ2Lg"
+              desc_serti=""
+              from_sertifikat="Dicoding"
+            />
+          </div> */}
         </div>
       </div>
     </section>

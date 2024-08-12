@@ -66,28 +66,28 @@ function App() {
           <ContentContainer>
             <h1 className="text-5xl font-semibold">Hello, World!</h1>
             <p>
-              My name is Ariiq Maazin, I'm a front-end developer based in
-              Bekasi, Indonesia. I am a programmer specializing in JavaScript
-              Frameworks and UI Frameworks.
+            My name is Abdul Aziz, a graduate of SMP Pondok Pesantren Hamalatul Qur'an Karawang.
+            I have solid experience as a Graphic Designer with significant achievements,
+            including improving work efficiency by 25% using Adobe, Coreldraw, and Figma software.
             </p>
             <p>
-              I am very interested in front-end development, including enhancing
-              the user interface and improving the overall user experience.
+            I have a strong interest in advancing my career as a Graphic Designer and am proficient in using various software such as Adobe,
+            Coreldraw, and Figma to create innovative and high-quality designs.
             </p>
             <section className="space-x-4">
               <ButtonLink
                 link="belumpunya"
-                after="Ariiq"
+                after="Aziz"
                 font={<FontAwesomeIcon icon={faLinkedin} />}
               />
               <ButtonLink
-                link="https://github.com/Kingostyl"
-                after="Vuezien"
+                link="https://github.com/abdulaziz817"
+                after="abdulaziz817"
                 font={<FontAwesomeIcon icon={faGithub} />}
               />
               <ButtonLink
                 link="vueziend.vs"
-                after="#ZIEN"
+                after="#zizzzzdul"
                 font={<FontAwesomeIcon icon={faDiscord} />}
               />
             </section>
